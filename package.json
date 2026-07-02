@@ -42,6 +42,7 @@
     "typecheck": "tsc -b",
     "test": "vitest run",
     "test:watch": "vitest",
+    "check:openapi": "tsc -b && node dist/check-openapi.js",
     "clean": "tsc -b --clean"
   },
   "dependencies": {
